@@ -1,0 +1,20 @@
+paths - absolute path & relative path
+Image that we are talkin about is entri.jpg
+Relative paths
+-> src="entri.jpg" - in the same folder as this file
+-> src="images/entri.jpg" - in the images folder and images folder is in the same folder as this file.
+-> src="/images/entri.jpg" - in the images folder and images folder is at the root directory
+-> src="../entri.jpg" - in the images folder and images folder is one level up from the folder where this file is present.
+
+Where are paths used in HTML?
+-> images
+-> style sheets(css) file
+-> js file
+-> external links
+-> links to another html page of the same project
+
+Example of absolute path
+C:\Users\VB\Desktop\Entri\Images\entri.jpg
+
+Which type of mapping is preferred?
+Relative Paths

@@ -1,0 +1,4 @@
+There are 3 types of possible CSS placements -
+1. In the same file/ Internal CSS
+2. In the other file/ External CSS
+3. Within the element/ Inline CSS

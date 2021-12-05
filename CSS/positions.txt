@@ -1,0 +1,11 @@
+Position Properties -
+p{
+    property:value;
+}
+
+position -
+1. static
+2. relative
+3. fixed
+4. absolute
+5. sticky

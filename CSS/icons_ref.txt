@@ -3,4 +3,8 @@ Bootstrap icons
 
 Google icons
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+Link for libraries
+https://fonts.google.com/icons
+https://icons.getbootstrap.com/

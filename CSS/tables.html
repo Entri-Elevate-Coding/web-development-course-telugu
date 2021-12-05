@@ -1,0 +1,88 @@
+<!--
+    Tables - <table>
+        rows -> horizontal
+        coloumns -> vertical
+    
+    <tr> - table row
+    <td> - table data
+    <th> - table header
+
+    In HTML, for tables we create them row after row. And number of columns is completely dynamic for every row. There can be lot more columns added via td than the ones added via th. 
+    
+    Borders of these tables basically require you to know CSS. So, that will be discussed in CSS section. 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table,th,td{
+            border: 3px solid black;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th{
+            padding: 10px;
+            color:darkblue;
+            background-color: lawngreen;
+        }
+        td{
+            text-align: center;
+            color:indigo;
+        }
+        .name-in-td{
+            text-transform: lowercase;
+            font-family: cursive;
+        }
+        .bg-change{
+            background-color: #d8d8d8;
+        }
+    </style>
+</head>
+<body>
+    <h2>Let's create tables!</h2>
+    <table>
+        <tr>
+            <th>SNo.</th>
+            <th>Name</th>
+            <th>Ph No</th>
+            <th>Instagram Id</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class="name-in-td">XYZ</td>
+            <td>1234</td>
+            <td>abc_xyz</td>
+        </tr>
+
+        <tr class="bg-change">
+            <td>2</td>
+            <td class="name-in-td">ABC</td>
+            <td>1235</td>
+            <td>abc_abc</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td class="name-in-td">XYZ</td>
+            <td>1234</td>
+            <td>abc_xyz</td>
+        </tr>
+
+        <tr class="bg-change">
+            <td>2</td>
+            <td class="name-in-td">ABC</td>
+            <td>1235</td>
+            <td>abc_abc</td>
+        </tr>
+
+    </table>
+</body>
+</html>
